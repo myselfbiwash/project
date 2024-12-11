@@ -1,0 +1,77 @@
+{
+  "personalInfo": {
+    "name": "Biwash Budhathoki",
+    "title": "Full Stack Developer",
+    "email": "biwashbudhathoki100@gmail.com",
+    "location": "Kupandole, Lalitpur, Nepal",
+    "bio": "Passionate developer with 5+ years of experience in building modern web applications. Focused on creating beautiful and performant user experiences.",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop",
+    "socialLinks": {
+      "github": "https://github.com/myselfbiwash",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe"
+    }
+  },
+  "experience": [
+    {
+      "title": "Junior Frontend Developer",
+      "company": "Pixelvirt",
+      "period": "2024 July - Present",
+      "description": "Led the frontend development team in building modern web applications using React and TypeScript.",
+      "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS"]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "StartUp Inc",
+      "period": "2019 - 2021",
+      "description": "Developed and maintained full-stack applications using modern technologies.",
+      "technologies": ["Node.js", "React", "PostgreSQL", "AWS"]
+    },
+    {
+      "title": "Junior Frontend Developer",
+      "company": "Pixelvirt",
+      "period": "2024 July - Present",
+      "description": "Led the frontend development team in building modern web applications using React and TypeScript.",
+      "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "description": "A modern e-commerce platform built with Next.js and Stripe integration",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=2940&auto=format&fit=crop",
+      "technologies": ["Next.js", "Stripe", "Tailwind CSS", "PostgreSQL"],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com/example"
+    },
+    {
+      "title": "AI Chat Application",
+      "description": "Real-time chat application with AI-powered responses",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2944&auto=format&fit=crop",
+      "technologies": ["React", "Socket.io", "OpenAI", "Node.js"],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com/example"
+    }
+  ],
+  "skills": {
+    "frontend": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
+    "backend": ["Node.js", "Express", "PostgreSQL", "MongoDB"],
+    "tools": ["Git", "Docker", "AWS", "Figma"]
+  },
+  "testimonials": [
+    {
+      "name": "Jane Smith",
+      "position": "Product Manager",
+      "company": "Tech Corp",
+      "text": "John is an exceptional developer who consistently delivers high-quality work.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop"
+    }
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#3B82F6",
+      "secondary": "#10B981",
+      "accent": "#8B5CF6"
+    }
+  }
+}
