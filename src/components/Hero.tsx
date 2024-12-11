@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
-import { Github as GitHubIcon, Linkedin, Twitter } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { PersonalInfo } from '../types/portfolio';
 import BiwashImage from '../assets/Biwash.jpg';
+
 interface HeroProps {
   data: PersonalInfo;
 }
@@ -36,7 +37,7 @@ export function Hero({ data }: HeroProps) {
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300"
               >
-                <GitHubIcon className="w-6 h-6" />
+                <FaGithub className="w-6 h-6" />
               </a>
               <a
                 href={data.socialLinks.linkedin}
@@ -44,7 +45,7 @@ export function Hero({ data }: HeroProps) {
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300"
               >
-                <Linkedin className="w-6 h-6" />
+                <FaLinkedin className="w-6 h-6" />
               </a>
               <a
                 href={data.socialLinks.twitter}
@@ -52,7 +53,7 @@ export function Hero({ data }: HeroProps) {
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300"
               >
-                <Twitter className="w-6 h-6" />
+                <FaTwitter className="w-6 h-6" />
               </a>
             </div>
           </motion.div>

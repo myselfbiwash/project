@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Send } from 'lucide-react';
+import { FaEnvelope, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
 import { PersonalInfo } from '../types/portfolio';
 
 interface ContactProps {
@@ -30,7 +30,7 @@ export function Contact({ data }: ContactProps) {
             
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-full bg-primary/10">
-                <Mail className="w-6 h-6 text-primary" />
+                <FaEnvelope className="w-6 h-6 text-primary" />
               </div>
               <div>
                 <p className="font-medium">Email</p>
@@ -42,7 +42,7 @@ export function Contact({ data }: ContactProps) {
 
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-full bg-primary/10">
-                <MapPin className="w-6 h-6 text-primary" />
+                <FaMapMarkerAlt className="w-6 h-6 text-primary" />
               </div>
               <div>
                 <p className="font-medium">Location</p>
@@ -98,7 +98,7 @@ export function Contact({ data }: ContactProps) {
               type="submit"
               className="w-full px-6 py-3 bg-primary text-white rounded-lg flex items-center justify-center gap-2 hover:bg-primary/90 transition-colors"
             >
-              <Send className="w-5 h-5" />
+              <FaPaperPlane className="w-5 h-5" />
               Send Message
             </button>
           </motion.form>

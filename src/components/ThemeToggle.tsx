@@ -1,4 +1,4 @@
-import { Moon, Sun } from 'lucide-react';
+import { FaMoon, FaSun } from 'react-icons/fa';
 import { useTheme } from '../hooks/useTheme';
 
 export function ThemeToggle() {
@@ -11,9 +11,9 @@ export function ThemeToggle() {
       aria-label="Toggle theme"
     >
       {theme === 'dark' ? (
-        <Sun className="w-5 h-5 text-yellow-400" />
+        <FaSun className="w-5 h-5 text-yellow-400" />
       ) : (
-        <Moon className="w-5 h-5 text-slate-900" />
+        <FaMoon className="w-5 h-5 text-slate-900" />
       )}
     </button>
   );
